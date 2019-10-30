@@ -1,0 +1,1 @@
+{"version":3,"sources":["testimonials.scss"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,cAAc;EACd,uCAAuC;EACvC,wBAAuB;MAAvB,qBAAuB;UAAvB,uBAAuB,EAAA","file":"testimonials.css","sourcesContent":[".testimonials {\n  display: grid;\n  grid-gap: 65px;\n  grid-template-columns: repeat(3, 200px);\n  justify-content: center;\n}\n"]}

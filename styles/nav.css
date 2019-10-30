@@ -1,0 +1,26 @@
+.nav {
+  color: black;
+  text-transform: uppercase; }
+  .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    list-style: none; }
+  .nav__item {
+    padding: 7px 20px;
+    margin: 23px;
+    border-radius: 10px; }
+    .nav__item--active {
+      background-color: #d5c5aa; }
+  .nav__link {
+    color: white;
+    text-decoration: none;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s; }
+    .nav__link:hover {
+      color: #d5c5aa; }
+
+/*# sourceMappingURL=nav.css.map */

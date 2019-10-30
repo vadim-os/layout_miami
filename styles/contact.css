@@ -1,0 +1,20 @@
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .contact__text {
+    width: 480px; }
+  .contact__heading {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: black; }
+    .contact__heading:last-of-type {
+      margin-top: 30px; }
+  .contact__form {
+    width: 383px; }
+
+/*# sourceMappingURL=contact.css.map */
