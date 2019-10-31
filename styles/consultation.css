@@ -15,4 +15,13 @@
   .consultation__form {
     width: 383px; }
 
+@media screen and (max-width: 980px) {
+  .consultation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .consultation__text, .consultation__form {
+      width: 100%; } }
+
 /*# sourceMappingURL=consultation.css.map */

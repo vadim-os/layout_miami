@@ -1,10 +1,13 @@
 .header {
-  height: 735px;
+  height: 100vh;
   background-image: url(../images/header.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
-  font-weight: 400; }
+  font-weight: 400;
+  line-height: 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
   .header__nav {
     position: absolute;
     bottom: 25px;
@@ -33,5 +36,14 @@
     transition: color 0.5s; }
     .header__link:hover {
       color: #d5c5aa; }
+
+@media screen and (max-width: 980px) {
+  .header__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .header__phone {
+    margin: -20px 0 10px; } }
 
 /*# sourceMappingURL=header.css.map */

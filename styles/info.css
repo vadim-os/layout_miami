@@ -6,7 +6,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between; }
   .info__heading {
-    max-width: 314px;
+    max-width: 324px;
     font-weight: 300;
     text-transform: uppercase;
     font-size: 48px;
@@ -15,5 +15,14 @@
     max-width: 564px; }
     .info__text > :first-child {
       margin-top: 0; }
+
+@media screen and (max-width: 980px) {
+  .info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .info__heading {
+      margin-bottom: 16px; } }
 
 /*# sourceMappingURL=info.css.map */
